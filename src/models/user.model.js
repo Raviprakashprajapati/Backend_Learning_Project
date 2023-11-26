@@ -31,7 +31,7 @@ const userSchema = new mongoose.Schema(
             required:true
         },
         coverImage:{
-            type:String
+            type:String  //cloundinary url
         },
         watchHistory:[
             {
